@@ -74,10 +74,21 @@ nav>i {
 .card-location>a {
   text-decoration: none;
   color: #003737;
+  transition: all 0.3s ease;
+}
+
+.card-location>a:hover {
+  font-weight: 800;
+  color: #014040;
 }
 
 .google-link {
   color: #918E9B;
+  transition: all 0.3s ease;
+}
+
+.google-link:hover {
+  color: #34304a;
 }
 
 .card-day {
