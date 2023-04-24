@@ -1,0 +1,109 @@
+.page {
+  -webkit-box-shadow: 0px 1px 13px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 13px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 13px -4px rgba(0, 0, 0, 0.75);
+  margin-top: 30px;
+
+}
+
+body {
+  width: 550px;
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+}
+
+nav {
+  background-color: #003737;
+  color: aliceblue;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  gap: 7px;
+  align-items: center;
+}
+
+nav>h1 {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 14.46px;
+}
+
+nav>i {
+  font-size: 24px;
+}
+
+.hero {
+  height: 750px;
+  overflow-y: scroll;
+}
+
+.card {
+  margin: 30px;
+  display: flex;
+  font-size: 10.24px;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.card-img {
+  width: 128px;
+  height: 169px;
+  border-radius: 5px;
+  margin-right: 15px;
+  -webkit-box-shadow: 2px 8px 13px -4px rgba(30, 43, 33, 1);
+  -moz-box-shadow: 2px 8px 13px -4px rgba(30, 43, 33, 1);
+  box-shadow: 2px 8px 10px -4px rgb(17, 21, 18);
+}
+
+.card-title {
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.card-location {
+  margin: 0px;
+}
+
+.card-location>a {
+  text-decoration: none;
+  color: #003737;
+  transition: all 0.3s ease;
+}
+
+.card-location>a:hover {
+  font-weight: 800;
+  color: #014040;
+}
+
+.google-link {
+  color: #918E9B;
+  transition: all 0.3s ease;
+}
+
+.google-link:hover {
+  color: #34304a;
+}
+
+.card-day {
+  margin: 0px;
+  font-size: 11.24px;
+}
+
+.card-description {
+  margin-top: 8px;
+}
+
+hr {
+  margin: 20px;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
